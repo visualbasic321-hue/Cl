@@ -1,0 +1,27 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.sulake.discord.richpresence</id>
+    <versionNumber>1.0.0</versionNumber>
+    <platforms>
+        <platform name="Windows-x86">
+            <applicationDeployment>
+                <nativeLibrary>DiscordRichPresence.dll</nativeLibrary>
+                <initializer>ExtensionInitializer</initializer>
+                <finalizer>ExtensionFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+        <platform name="Windows-x86-64">
+            <applicationDeployment>
+                <nativeLibrary>DiscordRichPresence.dll</nativeLibrary>
+                <initializer>ExtensionInitializer</initializer>
+                <finalizer>ExtensionFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+        <platform name="MacOS-x86-64">
+            <applicationDeployment>
+                <nativeLibrary>DiscordRichPresence.framework</nativeLibrary>
+                <initializer>ExtensionInitializer</initializer>
+                <finalizer>ExtensionFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+    </platforms>
+</extension>

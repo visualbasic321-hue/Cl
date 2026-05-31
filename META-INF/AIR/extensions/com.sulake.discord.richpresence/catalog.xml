@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="3.2.3" build="0"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/sulake/discord/DiscordRichPresence" mod="1770987940368">
+                <def id="com.sulake.discord:DiscordRichPresence"/>
+                <dep id="ArgumentError" type="e"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.sulake.discord.events:DiscordRichPresenceEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+            </script>
+            <script name="com/sulake/discord/events/DiscordRichPresenceEvent" mod="1770775318684">
+                <def id="com.sulake.discord.events:DiscordRichPresenceEvent"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="cb5db1494edee9f6b3af344b9949a84b47f74452c87b0f523602b15d13e4df60"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>
